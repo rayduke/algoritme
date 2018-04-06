@@ -37,48 +37,10 @@ echo "for loops: " . $for_count . "<br>";
 echo "swaps: " . $swap_count;
 echo '<br>';
 
-//
-//function optellenTotHonderd($getal){
-//    if($getal == 101){ return 'done'; }    
-//    
-//    echo $getal . '<br>';
-//    $getal++;
-//    optellenTotHonderd($getal);
-//}
-//
-//optellenTotHonderd(1);
-
-
 
 echo '<br>';
 
 //---------------
-
-    
-//function recursie($literTotaal){
-//    
-//    
-//        if($literTotaal == 0){ 
-//            return 'Tank is leeg';
-//            
-//        }else{
-//            
-//            
-//        
-//        $verlies = 10;
-//        $bijgevuld = 5;
-//        $literTotaal = $literTotaal - $verlies;
-//        $literTotaal = $literTotaal + $bijgevuld;
-//
-//                
-//          echo round($literTotaal) . '<br>';
-//        }
-//          recursie($literTotaal);
-//        }
-//    
-//
-//recursie(10000);
-
 
 
 
