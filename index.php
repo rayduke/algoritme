@@ -1,5 +1,5 @@
 <?php
-
+//-------------sorteren------------------//
 $reeks = [6,2,10,4,3,6,9,5,13,7,4,2,5];
 $for_count = 0;
 $swap_count = 0;
@@ -40,7 +40,7 @@ echo '<br>';
 
 echo '<br>';
 
-//---------------
+//-----------Recursie--------------------//
 
 
 
@@ -48,7 +48,7 @@ echo "Doordat Henk niet goed oplet op de beurs verliest hij per dag 20% van zijn
 
 
 $dagen = 0;
-function recursie2($tegoed){
+function recursie($tegoed){
     global $dagen;
     
         if(number_format($tegoed,2) == 0)
@@ -66,14 +66,13 @@ function recursie2($tegoed){
                 $dagentekst = "dagen";
             }
         
-//        echo "€ ". number_format($tegoed,2) . " ------- na ".$dagen." " .$dagentekst. '<br>';
         echo "Na ".$dagen." " .$dagentekst. " € ". number_format($tegoed,2) . " over<br>";
-        recursie2($tegoed);
+        recursie($tegoed);
           
         }
     
 
-recursie2(10000);
+recursie(10000);
 
 ?>
 
